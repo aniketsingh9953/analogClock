@@ -31,3 +31,10 @@
     left: 49.6%;
     background-color: red;
 }
+#playBtn{
+    position: absolute;
+    width: 20vw;
+    /* height: 10vh; */
+    left: 40%;
+    top: 70%;
+}
