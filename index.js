@@ -12,3 +12,11 @@ setInterval(() => {
     minute.style.transform = `rotate(${mrotation}deg)`;
     second.style.transform = `rotate(${srotation}deg)`;
 }, 1000);
+
+let playBtn = document.getElementById("playBtn");
+let audio = document.createElement('audio');
+playBtn.addEventListener('click',()=>{
+    audio.setAttribute('src', 'tik.wav');
+    audio.loop=true;
+    audio.play();
+})
